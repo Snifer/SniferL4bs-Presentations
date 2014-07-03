@@ -1,0 +1,71 @@
+% /**
+% * Copyright 2012 Sergio García Mondaray
+% *
+% * This file is part of GodTIC-Templates (www.godtic.com).
+% * 
+% * GodTIC-Templates is free software: you can redistribute it and/or modify it
+% * under the terms of the GNU General Public License as published by
+% * the Free Software Foundation (version 3 of the License).
+% * 
+% * GodTIC-Templates is distributed in the hope that it will be useful, but
+% * WITHOUT ANY WARRANTY; without even the implied warranty 
+% * of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+% * See the GNU General Public License for more details.
+% * 
+% * You should have received a copy of the GNU General Public License 
+% * along with GodTIC-Templates. If not, see http://www.gnu.org/licenses/.
+% **/
+\author{\autor}
+\title{\titulo}
+
+\frame{\titlepage}
+
+\section*{}
+\begin{frame}
+  \frametitle{Índice}
+  \framesubtitle{Contenido}
+  \tableofcontents[section=1,hidesubsections]
+\end{frame}
+\AtBeginSection[]
+{
+  \frame<handout:0>
+  {
+    \frametitle{Índice}
+    \framesubtitle{Contenido}
+
+    \tableofcontents[currentsection,hideallsubsections]
+  }
+}
+\AtBeginSubsection[]
+{
+  \frame<handout:0>
+  {
+    \frametitle{Índice}
+    \framesubtitle{Contenido}
+    \tableofcontents[sectionstyle=show/hide,subsectionstyle=show/shaded/hide]
+  }
+}
+\newcommand<>{\highlighton}[1]{
+  \alt#2{\structure{#1}}{{#1}}
+}
+\newcommand{\icon}[1]{\pgfimage[height=1em]{#1}}
+
+%% Título y subtítulo
+
+\def\frametit{\insertsection}
+\def\framesubtit{\insertsubsection}
+
+%\newcommand{\slide}[1]{\begin{frame}\frametitle{\frametit}\framesubtitle{\framesubtit}#1\end{frame}}
+
+\newenvironment{slide}[1][]
+  {\begin{frame}[fragile,environment=slide,#1]
+    \frametitle{\frametit}\framesubtitle{\framesubtit}}
+  {\end{frame}}
+
+\newenvironment{blankslide}[1][]
+  {\begin{frame}[fragile,environment=blankslide,#1]
+    \frametitle{}\framesubtitle{}}
+  {\end{frame}}
+
+%\newenvironment{slide}{\begin{frame}}{\end{frame}}
+% \newenvironment{slidef}{\begin{xframe}}{\end{xframe}}
