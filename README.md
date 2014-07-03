@@ -10,10 +10,17 @@ Presentaciones realizadas en LaTeX
       Ponencia donde se presento la herramienta Grampus.
   - Presentacion Laboratorio de Malware (2013)
       Ponencia donde se presento lo que es un Laboratorio de Malware y que cuidados se debe tener ante nuestros amigos ;).
+
 * Android Camp Bolivia (2013)      
   - Presentacion Invasion Zombie al mundo de Android
       Ponencia realizada para el AndroidCamp Bolivia 2013 realizada en Cochabamba.    
       
+
+* Jornadas de Seguridad Informatica UMSS (2014) - (EN PROCESO )
+  - Presentación Atacando al Atacante
+      Ponencia realizada para las jorndas de Seguridad Informática 2014 realizada en Cochabamba.    
+
+
 Jose Moruno Cadima A.K.A Snifer
 
 Twitter & Skype: @sniferl4bs
