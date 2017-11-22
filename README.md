@@ -1,4 +1,4 @@
-LaTeX-Presentations
+SniferL4bs Presentations
 ===================
 
 Presentaciones realizadas en LaTeX
@@ -16,9 +16,9 @@ Presentaciones realizadas en LaTeX
       Ponencia realizada para el AndroidCamp Bolivia 2013 realizada en Cochabamba.    
       
 
-* Jornadas de Seguridad Informatica UMSS (2014) - (EN PROCESO )
-  - Presentación Atacando al Atacante
-      Ponencia realizada para las jorndas de Seguridad Informática 2014 realizada en Cochabamba.    
+* 8.8 "Lucky" Bolivia (2017)
+  - Presentación CTF 101
+      Charla corta realizada para 8.8 Bolivia sobre lo que es un CTF y que tipos de modalidades existe un tema de acercamiento a los retos y como prepararse.
 
 
 Jose Moruno Cadima A.K.A Snifer
